@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Project</title>
     <link rel="stylesheet" href="/EX2/css/style.css">
 </head>
+
 <body>
     <header>
         <img src="/EX2/images/logo.png" alt="Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li ><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
@@ -21,16 +23,73 @@
     <main>
         <section class="banner">
             <img src="/EX2/images/banner.jpg" alt="Banner">
-            <h1>Welcome to My First Project</h1>
+            <h1>Welcome to My portfolio</h1>
             <p>This is a simple HTML and CSS project example.</p>
         </section>
         <section class="content">
-            <h2>About Us</h2>
-            <p>We are a company that specializes in web design and development. Our goal is to create beautiful and functional websites for our clients.</p>
+            <div id="about" class="backgroundGreenLight">
+                <h2>About Me</h2>
+                <p id="aboutText">
+                    My name is <span>ABBAS BASSAKI</span> I am a
+                    <span class="text-brown">Front-end Developer</span>
+                    and a
+                    <span class="text-blueviolet">Web Design Instructor</span>
+                    <br>, passionate about creating visually appealing
+                    and
+                    user-friendly websites.
+                </p>
+            </div>
+            <!-------------skills start-------------->
+            <div class="marginTop50  backgroundGreenLight"  id="skills">
+                <h1>Skills</h1>
+                <div class="marginTop50">
+                    <div >
+                        <lable>HTML</lable>
+                        <div class="progressBase">
+                            <div class="progress width75P"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="marginTop50">
+                    <div >
+                        <lable>HTML</lable>
+                        <div class="progressBase">
+                            <div class="progress width80P"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="marginTop50">
+                    <div >
+                        <lable>HTML</lable>
+                        <div class="progressBase">
+                            <div class="progress width75P"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="marginTop50">
+                    <!-- <label for="">HTML</label>
+                    <meter id="progressBase" style="width: 500px ; color: black;" value="60" min="0" max="75" low="10" high="100"></meter><span>75%</span> -->
+                    <div class="marginBottom50">
+                        <lable for="progressBase">HTML</lable>
+                        <div id="progressBase" class="progressBase">
+                            <div class="progress width75P "></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-------------skills end-------------->
+        </section>
+        <!-----------main section end-------------->
         </section>
     </main>
     <footer>
         <p>&copy; 2024 My First Project. All rights reserved.</p>
     </footer>
 </body>
+
 </html>

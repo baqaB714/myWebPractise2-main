@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -15,11 +15,20 @@ header .logo {
     width: 100px;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px white;
+    transition: 500ms;
+}
+
+header .logo:hover {
+    box-shadow: 0 0 40px rgb(247, 242, 1);
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding-top: 20px;
+    padding-left: 0;
 }
 
 nav ul li {
@@ -35,12 +44,13 @@ nav ul li a {
 .banner {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .banner img {
     width: 100%;
     height: auto;
+    box-shadow: 0 -2px 25px white;
 }
 
 .banner h1 {
@@ -50,6 +60,7 @@ nav ul li a {
     transform: translate(-50%, -50%);
     font-size: 3em;
     margin: 0;
+    text-shadow: 0 0 20px yellow
 }
 
 .banner p {
@@ -58,11 +69,27 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
 }
 
 main .content {
     padding: 20px;
     text-align: center;
+    font-size: x-large;
+}
+
+#about,
+#skills {
+    box-shadow: 0 3px 5px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main .content span {
+    color: red;
+    font-weight: bold;
 }
 
 footer {
@@ -70,4 +97,40 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+/* ----------------- skills--------------- */
+.marginTop50 {
+    margin-top: 50px;
+}
+
+.marginBottom50 {
+    margin-bottom: 50px;
+}
+
+.progressBase {
+    display: inline-block;
+    width: 500px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0px 5px 0px 5px;
+}
+
+.progressBase .progress {
+    height: 100%;
+    background: green;
+    border-radius: 100px;
+}
+
+.width75P {
+    width: 75%;
+}
+
+.width80P {
+    width: 80%;
+}
+
+.backgroundGreenLight{
+    background: rgb(211, 241, 166);
 }
