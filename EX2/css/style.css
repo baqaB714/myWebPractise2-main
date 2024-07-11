@@ -2,10 +2,15 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    /* background:rgba(0, 0, 0, 0.562) url('/EX2/images/banner.jpg') fixed  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-blend-mode: overlay; */
 }
 
 header {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px 0;
     text-align: center;
