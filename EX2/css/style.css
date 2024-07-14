@@ -139,3 +139,8 @@ footer {
 .backgroundGreenLight{
     background: rgb(211, 241, 166);
 }
+
+.width120{
+    width: 120px;
+    display: inline-block;
+}
